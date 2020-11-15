@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="modal-content">
+       <p>Are You Sure?</p>
+       <button id="yes-button">YES</button>
+       <button id="cancel-button">Cancel</button>
+    </div>
+
+    <div class="input-area">
+        <h1>Expense Tracker</h1>
+        <h3>Add a new item:</h3>
+        <label>Description</label>
+        <input type="text" class="description" placeholder="Type of expense">
+        <br><br>
+        <label>Date</label>
+        <input type="date" class="date">
+        <label>Amount</label>
+        <input type="number" class="amount" placeholder="$">
+        <br><br>
+        <button class="add-expense">ADD</button>
+        <hr>
+    </div>
+
+    <div class="output">
+        <table>
+            <tr class="table-heading">
+                <th>Description</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Edit/Del</th>
+            </tr>
+            <tr class="placeholder">
+                <td colspan="4"><i>No Expenses Added Yet</i></td>
+ 
+            </tr>
+            <tr class="total">
+
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
