@@ -1,0 +1,116 @@
+html {
+  margin: auto;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+  text-transform: capitalize;
+  color: green;
+}
+
+h4 {
+  margin: 5px;
+}
+
+label {
+  font-weight: bold;
+  vertical-align: top;
+}
+
+.note {
+  border-radius: 5px;
+  height: 50px;
+  width: 500px;
+}
+
+.output {
+  display: block;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.note-output {
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.note-text {
+  height: 100px;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.add-button {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+}
+
+.details-button, .delete-button {
+  background-color: #3792cb;
+  color: white;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  position: relative;
+  top: 12px;
+}
+
+.delete-button {
+  background-color: #800000;
+  position: relative;
+  left: 95px;
+  top: 12px;
+}
+
+.input-area {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  text-align: center;
+}
+
+.modal-content {
+  position: fixed;
+  z-index: 1;
+  background: white;
+  border-radius: 10px;
+  width: auto;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  display: none;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.visible {
+  display: block;
+}
+
+#cancel-button {
+  float: right;
+}
