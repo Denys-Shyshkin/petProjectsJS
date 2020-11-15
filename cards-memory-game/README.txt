@@ -1,0 +1,1 @@
+Simple memory game main goal of which to uncover all 8 cards on the table. You can flip every card one by one in any order but only matching will remain uncovered. The game tracks your time and number of flips so you can improve your results.
