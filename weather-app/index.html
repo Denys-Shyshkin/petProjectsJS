@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+</head>
+<body>
+    <div class="choose">
+        <div class="cities" id="London">London</div>
+        <div class="cities" id="Madrid">Madrid</div>
+        <div class="cities" id="Washington">Washington</div>
+        <div class="cities" id="Mexico">Mexico</div>
+        <div class="cities" id="Tokyo">Tokyo</div>
+        <div class="cities" id="Delhi">Delhi</div>
+        <div class="cities" id="Dubai">Dubai</div>
+        <div class="cities" id="Istanbul">Istanbul</div>
+    </div>
+
+    <div class="location"><i class="fas fa-map-marker-alt fa-xs"></i> Your Current Location</div>
+
+    <div class="weather-container">
+        <div class="button-container">
+            <button class="metric active">C, m/s</button>
+            <button class="imperial">F, mph</button>
+        </div>
+        
+        <div class="city"></div>
+    
+        <div class="temp"></div>
+
+        <div class="icon"></div>
+    
+        <div class="weather"></div>
+
+        <div class="humidity"></div>
+
+        <div class="wind"></div>
+    </div>
+
+    <button class="random">Random City</button>
+
+    <script src="./app.js"></script>
+</body>
+</html>
