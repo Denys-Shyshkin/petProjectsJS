@@ -10,7 +10,7 @@ const totalRow = document.querySelector('.total');
 const modal = document.querySelector('.modal-content');
 
 // Introducing array to place inside all expense
-const allExpenses = [];
+let allExpenses = [];
 
 // Introducing variable to give a specific id to each expense
 let i = 0;
